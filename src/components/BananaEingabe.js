@@ -28,7 +28,7 @@ render() {
                 <input name="geldbetrag" className="geldbetrag" type="number" placeholder="Bitte geben Sie einen Betrag ein!" onChange={this.BananaEingabe} value={this.state.eingabe}></input>
                     <div>
                         <input name="einzahlen" className="einzahlen" type="button" value="Einzahlen" onClick={this.BananaEinzahlen}/>
-                        <input name="auszahlen" className="auszahlen" type="button" value="Auzahlen" onClick={this.BananaAuszahlen}/>
+                        <input name="auszahlen" className="auszahlen" type="button" value="Auszahlen" onClick={this.BananaAuszahlen}/>
                     </div>
             </form>
         </section>   
